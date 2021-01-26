@@ -10,5 +10,6 @@ sympy = "*"
 feyn = "*"
 jedi = "0.17.2"
 pmlb = "*"
+seaborn = "*"
 
 [dev-packages]
