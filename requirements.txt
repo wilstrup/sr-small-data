@@ -1,0 +1,7 @@
+jupyter
+scikit-learn
+sympy
+feyn
+jedi
+pmlb
+seaborn
