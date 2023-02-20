@@ -5,3 +5,4 @@ feyn
 jedi
 pmlb
 seaborn
+tqdm
