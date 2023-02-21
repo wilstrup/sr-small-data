@@ -4,11 +4,9 @@ PYTHON ?=python3
 
 all: test
 
-venv:
-	$(PYTHON) -m venv venv --clear --prompt feyn-venv
-
-$(cpython_filename): venv $(shell find qepler_ext -type f)
-	./venv/bin/python setup.py build_ext --inplace
-
+venv: requirements.txt
+	$(PYTHON) -m venv venv --clear --prompt srsmall-venv
+	./venv/bin/pip install -r requirements.txt
+	
 clean:
 	rm -rf venv
